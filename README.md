@@ -1,61 +1,10 @@
-# test
+# CI/CD Integration
+Here is an invitation link to access the project from the CI/CD
+Want to pair? Let's build on CircleCI together.
 
-This project uses Quarkus, the Supersonic Subatomic Java Framework.
+Sign up here: https://app.circleci.com/launchpad/invited?return-to=https%3A%2F%2Fapp.circleci.com%2Fpipelines%2Fgithub%2FZillaphresh%2Fpayments%3Finvite%3Dtrue&inviter=89c94aa4-055e-4a3d-ab0d-982f985188d5&invitePage=pipelines
+More info: https://app.circleci.com/launchpad/invited-video?inviter=89c94aa4-055e-4a3d-ab0d-982f985188d5&invitePage=pipelines
 
-If you want to learn more about Quarkus, please visit its website: https://quarkus.io/ .
+## Github Invitation
+A team invite has been sent to  seth.sebeh@etranzact.com.gh for collaboration
 
-## Running the application in dev mode
-
-You can run your application in dev mode that enables live coding using:
-```shell script
-./mvnw compile quarkus:dev
-```
-
-> **_NOTE:_**  Quarkus now ships with a Dev UI, which is available in dev mode only at http://localhost:8080/q/dev/.
-
-## Packaging and running the application
-
-The application can be packaged using:
-```shell script
-./mvnw package
-```
-It produces the `quarkus-run.jar` file in the `target/quarkus-app/` directory.
-Be aware that it’s not an _über-jar_ as the dependencies are copied into the `target/quarkus-app/lib/` directory.
-
-The application is now runnable using `java -jar target/quarkus-app/quarkus-run.jar`.
-
-If you want to build an _über-jar_, execute the following command:
-```shell script
-./mvnw package -Dquarkus.package.type=uber-jar
-```
-
-The application, packaged as an _über-jar_, is now runnable using `java -jar target/*-runner.jar`.
-
-## Creating a native executable
-
-You can create a native executable using: 
-```shell script
-./mvnw package -Pnative
-```
-
-Or, if you don't have GraalVM installed, you can run the native executable build in a container using: 
-```shell script
-./mvnw package -Pnative -Dquarkus.native.container-build=true
-```
-
-You can then execute your native executable with: `./target/test-1.0.0-SNAPSHOT-runner`
-
-If you want to learn more about building native executables, please consult https://quarkus.io/guides/maven-tooling.
-
-## Related Guides
-
-- RESTEasy Classic JSON-B ([guide](https://quarkus.io/guides/rest-json)): JSON-B serialization support for RESTEasy Classic
-- RESTEasy Classic ([guide](https://quarkus.io/guides/resteasy)): REST endpoint framework implementing Jakarta REST and more
-
-## Provided Code
-
-### RESTEasy JAX-RS
-
-Easily start your RESTful Web Services
-
-[Related guide section...](https://quarkus.io/guides/getting-started#the-jax-rs-resources)
