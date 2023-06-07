@@ -7,5 +7,5 @@ jobs:
     steps:
       - checkout
       - run: chmod +x ./mvnw
-      - run: ./mvnw package -Dquarkus.package.type=uber-jar
+      - run: ./mvnw compile quarkus:dev
       
