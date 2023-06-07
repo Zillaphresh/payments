@@ -3,9 +3,9 @@ jobs:
   build:
     working_directory: ~/payments
     docker:
-      - image: circleci/openjdk:11-jdk-buster
+      - image: circleci/openjdk:17-buster-node
     steps:
       - checkout
       - run: chmod +x ./mvnw
-      - run: ./mvnw compile quarkus:dev
+      - run: ./mvnw package -Dquarkus.package.type=uber-jar
       
